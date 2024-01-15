@@ -2,7 +2,7 @@
 
 ![Build Status][]
 
-Quad CI is a _simple_, _tiny_ and _beginner friendly_ Continuous Integration system written in Haskell.
+A fork of Quad CI for Continuous Integration 
 
 ### Features
 
@@ -10,12 +10,6 @@ Quad CI is a _simple_, _tiny_ and _beginner friendly_ Continuous Integration sys
 - multi-node architecture with agents picking up jobs to work on
 - http api to interact with the frontend and other nodes
 - support for triggering builds with github webhooks
-
-All in 1K lines of code!
-
-[![Screenshot](https://www.dropbox.com/s/x9zujrrgrndn5xz/preview.jpg?raw=1&a)](https://www.dropbox.com/s/k5drxinaq6hjnct/quad-ci-intro.mp4?raw=1)
-
-#### 📼 Watch the [Intro video](https://www.dropbox.com/s/k5drxinaq6hjnct/quad-ci-intro.mp4?raw=1) (~2 minutes).
 
 ---
 
@@ -57,16 +51,6 @@ yarn
 yarn next
 ```
 
-### Why?
-
-This project tries to answer the question: _How do I build an application with Haskell?_
-
-Intermediate level _practical_ resources on Haskell are notoriously hard to find. My goal is to provide a real world example of an Haskell application, while keeping the scope small (Quad CI is only 1000 lines of code, including tests).
-
-Another goal is to showcase [Simple Haskell](https://www.simplehaskell.org/) (or at least my own interpretation of it).
-
-Finally, I think `RecordDotSytax` is one of the coolest things that happened in Haskell land recently and I wanted to show how to use it in practice.
-
 ### Architecture
 
 Single server - multiple agents.
@@ -76,7 +60,6 @@ Builds share workspace.
 STM queue
 
 1 build/agent concurrency limit
-
 
 ### Codebase overview
 
