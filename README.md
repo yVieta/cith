@@ -13,15 +13,6 @@ A fork of Quad CI for Continuous Integration
 
 ---
 
-
-<img src="https://marcosampellegrini.com/book-cover.png" width="100" align="left">
-
-### Check out the [Simple Haskell Handbook](https://marcosampellegrini.com/simple-haskell-book) where we start from **zero lines of code** and build Quad CI _from scratch_!
-
-<br clear="left"/>
-
----
-
 ### Getting Started
 
 ```bash
